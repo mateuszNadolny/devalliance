@@ -1,5 +1,6 @@
 import WelcomeSection from '@/components/custom/welcome-section';
 import HeroBanner from '@/components/custom/hero-banner';
+import HeroFooter from '@/components/custom/hero-footer';
 
 import { HeroBannerData } from '@/lib/data';
 export default function LandingPage() {
@@ -9,6 +10,7 @@ export default function LandingPage() {
       {HeroBannerData.map((banner, i) => (
         <HeroBanner key={i} {...banner} />
       ))}
+      <HeroFooter />
     </main>
   );
 }
