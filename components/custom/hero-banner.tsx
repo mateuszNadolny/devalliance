@@ -22,7 +22,7 @@ const HeroBanner = ({ title, description, image, reverse }: HeroBannerProps) => 
           flexDirection: reverse ? 'row-reverse' : 'row',
           backgroundColor: !reverse ? 'rgba(234, 234, 234, 0.95)' : 'rgba(255, 255, 255, 0.9)'
         }}
-        className="p-10 shadow-md xl:shadow-none lg:p-24 lg:flex lg:gap-8 lg:h-[800px]">
+        className="p-10 shadow-md xl:shadow-none lg:p-24 lg:flex lg:gap-8 lg:h-screen">
         <div className="flex justify-center flex-col gap-4 lg:flex-1">
           <h3 className="scroll-m-20 text-start text-lg lg:text-4xl font-semibold tracking-tight lg:mb-8">
             {title}
